@@ -1,4 +1,7 @@
 .mainContainer {
+ @apply bg-blue-300
+}
+.welcomeMainContainer {
   @apply flex h-screen items-center justify-center bg-blue-300 text-white;
 }
 .welcomeButton {
