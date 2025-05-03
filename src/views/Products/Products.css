@@ -1,0 +1,6 @@
+.container {
+  @apply min-h-screen bg-amber-100;
+}
+.productsContainer {
+  @apply flex flex-col gap-4 sm:flex-row sm:gap-6 items-center bg-amber-100 min-h-screen justify-around;
+}
