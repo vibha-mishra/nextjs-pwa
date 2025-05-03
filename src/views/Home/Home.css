@@ -1,9 +1,12 @@
 .mainContainer {
- @apply bg-blue-300
+ @apply bg-blue-300 flex flex-col
 }
 .welcomeMainContainer {
   @apply flex h-screen items-center justify-center bg-blue-300 text-white;
 }
 .welcomeButton {
   @apply text-xl font-semibold text-blue-600 hover:underline cursor-pointer;
+}
+.installButton {
+  @apply flex justify-end
 }
